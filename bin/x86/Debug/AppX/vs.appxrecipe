@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\C#\WINFORMS\TestCodeMindX\TestCodeMindX\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-09-23T04:17:07.147</Modified>
+      <Modified>2021-09-23T15:27:16.671</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\C#\WINFORMS\TestCodeMindX\TestCodeMindX\bin\x86\Debug\TestCodeMindX.exe">
       <PackagePath>entrypoint\TestCodeMindX.exe</PackagePath>
-      <Modified>2021-09-23T04:17:06.553</Modified>
+      <Modified>2021-09-23T15:27:15.886</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -86,27 +86,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C#\WINFORMS\TestCodeMindX\TestCodeMindX\bin\x86\Debug\TestCodeMindX.xr.xml">
       <PackagePath>TestCodeMindX.xr.xml</PackagePath>
-      <Modified>2021-09-23T04:17:06.393</Modified>
+      <Modified>2021-09-23T15:14:59.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C#\WINFORMS\TestCodeMindX\TestCodeMindX\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-09-23T04:17:06.404</Modified>
+      <Modified>2021-09-23T15:24:44.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C#\WINFORMS\TestCodeMindX\TestCodeMindX\bin\x86\Debug\HomeScreen.xbf">
+      <PackagePath>HomeScreen.xbf</PackagePath>
+      <Modified>2021-09-23T15:24:44.071</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C#\WINFORMS\TestCodeMindX\TestCodeMindX\bin\x86\Debug\Login.xbf">
       <PackagePath>Login.xbf</PackagePath>
-      <Modified>2021-09-23T04:17:06.404</Modified>
+      <Modified>2021-09-23T15:24:44.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C#\WINFORMS\TestCodeMindX\TestCodeMindX\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-09-23T04:17:06.405</Modified>
+      <Modified>2021-09-23T15:24:44.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C#\WINFORMS\TestCodeMindX\TestCodeMindX\bin\x86\Debug\Register.xbf">
       <PackagePath>Register.xbf</PackagePath>
-      <Modified>2021-09-23T04:17:06.405</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\C#\WINFORMS\TestCodeMindX\TestCodeMindX\bin\x86\Debug\UserList.xbf">
-      <PackagePath>UserList.xbf</PackagePath>
-      <Modified>2021-09-23T04:17:06.405</Modified>
+      <Modified>2021-09-23T15:24:44.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -114,11 +114,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C#\WINFORMS\TestCodeMindX\TestCodeMindX\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-09-22T08:15:12.455</Modified>
+      <Modified>2021-09-23T14:59:20.241</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C#\WINFORMS\TestCodeMindX\TestCodeMindX\bin\x86\Debug\Core\TestCodeMindX.exe">
       <PackagePath>TestCodeMindX.exe</PackagePath>
-      <Modified>2021-09-23T04:17:07.141</Modified>
+      <Modified>2021-09-23T15:27:16.665</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

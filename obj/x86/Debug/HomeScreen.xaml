@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="TestCodeMindX.HomeScreen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestCodeMindX"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local1="using:TestCodeMindX.Model"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <ListView x:ConnectionId='2' x:Name="listPost" Grid.Row="0">
+            <ListView.HeaderTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="15" Width="500" >Post</TextBlock>
+                        <TextBlock Margin="15">UserName</TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.HeaderTemplate>
+            <ListView.ItemTemplate>
+                <DataTemplate                         >
+                    <StackPanel x:ConnectionId='7' Orientation="Horizontal" >
+                        <TextBlock x:ConnectionId='8' Margin="15" Width="500"                     />
+                        <TextBlock x:ConnectionId='9' Margin="15"                         />
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <TextBox x:ConnectionId='3' x:Name="newPost" Width="500" Height="30" IsSpellCheckEnabled="False"/>
+            <Button x:ConnectionId='4'                      Margin="5">Post</Button>
+        </StackPanel>
+    </Grid>
+</Page>
+

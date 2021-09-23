@@ -45,7 +45,10 @@ namespace TestCodeMindX
                     return;
                 }    
                 if (CheckLogins((App.Current as App).ConnectionString, userName.Text, password.Password))
-                    this.Frame.Navigate(typeof(UserList), null);
+                {
+                    HomeScreen.username = userName.Text;
+                    this.Frame.Navigate(typeof(HomeScreen), null);
+                }    
                 else
                 {
                     // Show the message dialog
@@ -81,14 +84,7 @@ namespace TestCodeMindX
                             {
                                 if (reader.HasRows)
                                 {
-                                    localSettings.Values["ID"] = userName;
-                                    localSettings.Values["password"] = password;
                                     return true;
-                                }
-                                else
-                                {
-                                    localSettings.Values["ID"] = string.Empty;
-                                    localSettings.Values["password"] = string.Empty;
                                 }
                             }
                         }

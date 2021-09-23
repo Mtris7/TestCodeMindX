@@ -33,7 +33,6 @@ namespace TestCodeMindX
 
         public string ConnectionString { get => connectionString; set => connectionString = value; }
 
-        Windows.Storage.ApplicationDataContainer localSettings = Windows.Storage.ApplicationData.Current.LocalSettings;
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
@@ -75,16 +74,7 @@ namespace TestCodeMindX
             {
                 if (rootFrame.Content == null)
                 {
-                    // When the navigation stack isn't restored navigate to the first page,
-                    // configuring the new page by passing required information as a navigation
-                    // parameter
-                    if (localSettings.Values["ID"] != null && localSettings.Values["password"] != null)
-                    {
-                        var parameters = new UserList((int)localSettings.Values["pageIndex"], (string)localSettings.Values["filter"]);
-                        rootFrame.Navigate(typeof(UserList), parameters);
-                    }
-                    else
-                        rootFrame.Navigate(typeof(Login), e.Arguments);
+                    rootFrame.Navigate(typeof(Login), e.Arguments);
                 }
                 // Ensure the current window is active
                 Window.Current.Activate();

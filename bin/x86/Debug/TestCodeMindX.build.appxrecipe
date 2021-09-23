@@ -70,6 +70,9 @@
     <AppxPackagedFile Include="E:\C#\WINFORMS\TestCodeMindX\TestCodeMindX\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C#\WINFORMS\TestCodeMindX\TestCodeMindX\bin\x86\Debug\HomeScreen.xbf">
+      <PackagePath>HomeScreen.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C#\WINFORMS\TestCodeMindX\TestCodeMindX\bin\x86\Debug\Login.xbf">
       <PackagePath>Login.xbf</PackagePath>
     </AppxPackagedFile>
@@ -78,9 +81,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C#\WINFORMS\TestCodeMindX\TestCodeMindX\bin\x86\Debug\Register.xbf">
       <PackagePath>Register.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\C#\WINFORMS\TestCodeMindX\TestCodeMindX\bin\x86\Debug\UserList.xbf">
-      <PackagePath>UserList.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
