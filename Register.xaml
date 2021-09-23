@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="TestCodeMindX.Register"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestCodeMindX"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <!--User Name, Full Name, Email, Password, Confirm Password and a button Register-->
+    <StackPanel VerticalAlignment="Center">
+        <TextBox x:Name="userName" PlaceholderText="User Name" Margin="20,5,20,5" IsSpellCheckEnabled="False"></TextBox>
+        <TextBox x:Name="fullName" PlaceholderText="Full Name" Margin="20,5,20,5" IsSpellCheckEnabled="False"></TextBox>
+        <TextBox x:Name="email" PlaceholderText="Email" Margin="20,5,20,5" IsSpellCheckEnabled="False"></TextBox>
+        <PasswordBox x:Name="password" PlaceholderText="Password" Margin="20,5,20,5" PasswordChar="*" ></PasswordBox>
+        <PasswordBox x:Name="confirmPassword" PlaceholderText="Confirm Password" Margin="20,5,20,5" PasswordChar="*"></PasswordBox>
+        <Button HorizontalAlignment="Center" BorderThickness="0" Foreground="CornflowerBlue"
+                Margin="20,5,20,5" Width="200" Click="Register_Click">Register</Button>
+    </StackPanel>
+</Page>

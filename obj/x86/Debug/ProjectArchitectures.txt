@@ -1,0 +1,1 @@
+E:\C#\WINFORMS\TestCodeMindX\TestCodeMindX\TestCodeMindX.csproj;x86

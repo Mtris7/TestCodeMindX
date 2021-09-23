@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="TestCodeMindX.Login"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestCodeMindX"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background= "{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel VerticalAlignment="Center">
+        <TextBox x:Name="userName" PlaceholderText="User Name" Margin="20,5,20,5"></TextBox>
+        <PasswordBox x:Name="password" PlaceholderText="Password" Margin="20,5,20,5" ></PasswordBox>
+        <Button x:Name="login" HorizontalAlignment="Center" Width="200" Margin="20,5,20,5" Click="Login_Click" >Login</Button>
+        <Button x:Name="register" HorizontalAlignment="Center" Foreground="CornflowerBlue" Width="200" 
+                 Margin="20,5,20,5" Click="Register_Click">Register</Button>
+    </StackPanel>
+    <!--<Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox Grid.Row="0" PlaceholderText="ID"></TextBox>
+        <TextBox Grid.Row="1" PlaceholderText="Password" ></TextBox>
+        <Button  Grid.Row="2" Click="Login_Click">Login</Button>
+        <Button  Grid.Row="3" BorderThickness="0" Click="Register_Click">Register</Button>
+    </Grid>-->
+</Page>
